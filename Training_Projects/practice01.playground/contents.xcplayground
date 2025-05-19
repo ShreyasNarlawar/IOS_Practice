@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' executeOnSourceChanges='true' importAppTypes='true'>
+    <pages>
+        <page name='ForLoops'/>
+        <page name='Untitled Page'/>
+        <page name='SortMap'/>
+        <page name='OOP'/>
+        <page name='Structs'/>
+        <page name='Enums'/>
+        <page name='classes'/>
+        <page name='AccessControl'/>
+        <page name='Closures'/>
+    </pages>
+</playground>
