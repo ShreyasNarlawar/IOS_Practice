@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		E89AC11C2DD1BBEE004E80E4 /* PBXContainerItemProxy */ = {
+		E87B90C92DDC687A0077D5E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E89AC1052DD1BBEC004E80E4 /* Project object */;
+			containerPortal = E87B90B32DDC68760077D5E6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E89AC10C2DD1BBEC004E80E4;
-			remoteInfo = SplashScreen1205;
+			remoteGlobalIDString = E87B90BA2DDC68760077D5E6;
+			remoteInfo = LoginPage;
 		};
-		E89AC1262DD1BBEE004E80E4 /* PBXContainerItemProxy */ = {
+		E87B90D32DDC687A0077D5E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E89AC1052DD1BBEC004E80E4 /* Project object */;
+			containerPortal = E87B90B32DDC68760077D5E6 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E89AC10C2DD1BBEC004E80E4;
-			remoteInfo = SplashScreen1205;
+			remoteGlobalIDString = E87B90BA2DDC68760077D5E6;
+			remoteInfo = LoginPage;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E89AC10D2DD1BBEC004E80E4 /* SplashScreen1205.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplashScreen1205.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89AC11B2DD1BBEE004E80E4 /* SplashScreen1205Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashScreen1205Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E89AC1252DD1BBEE004E80E4 /* SplashScreen1205UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplashScreen1205UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87B90BB2DDC68760077D5E6 /* LoginPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87B90C82DDC687A0077D5E6 /* LoginPageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87B90D22DDC687A0077D5E6 /* LoginPageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginPageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E8260CD62DDC8E86002C8140 /* Exceptions for "SplashScreen1205" folder in "SplashScreen1205" target */ = {
+		E86FC5662DDC6D8900BDC5C5 /* Exceptions for "LoginPage" folder in "LoginPage" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = E89AC10C2DD1BBEC004E80E4 /* SplashScreen1205 */;
+			target = E87B90BA2DDC68760077D5E6 /* LoginPage */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E89AC10F2DD1BBEC004E80E4 /* SplashScreen1205 */ = {
+		E87B90BD2DDC68760077D5E6 /* LoginPage */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E8260CD62DDC8E86002C8140 /* Exceptions for "SplashScreen1205" folder in "SplashScreen1205" target */,
+				E86FC5662DDC6D8900BDC5C5 /* Exceptions for "LoginPage" folder in "LoginPage" target */,
 			);
-			path = SplashScreen1205;
+			path = LoginPage;
 			sourceTree = "<group>";
 		};
-		E89AC11E2DD1BBEE004E80E4 /* SplashScreen1205Tests */ = {
+		E87B90CB2DDC687A0077D5E6 /* LoginPageTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SplashScreen1205Tests;
+			path = LoginPageTests;
 			sourceTree = "<group>";
 		};
-		E89AC1282DD1BBEE004E80E4 /* SplashScreen1205UITests */ = {
+		E87B90D52DDC687A0077D5E6 /* LoginPageUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SplashScreen1205UITests;
+			path = LoginPageUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E89AC10A2DD1BBEC004E80E4 /* Frameworks */ = {
+		E87B90B82DDC68760077D5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89AC1182DD1BBEE004E80E4 /* Frameworks */ = {
+		E87B90C52DDC687A0077D5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89AC1222DD1BBEE004E80E4 /* Frameworks */ = {
+		E87B90CF2DDC687A0077D5E6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E89AC1042DD1BBEC004E80E4 = {
+		E87B90B22DDC68760077D5E6 = {
 			isa = PBXGroup;
 			children = (
-				E89AC10F2DD1BBEC004E80E4 /* SplashScreen1205 */,
-				E89AC11E2DD1BBEE004E80E4 /* SplashScreen1205Tests */,
-				E89AC1282DD1BBEE004E80E4 /* SplashScreen1205UITests */,
-				E89AC10E2DD1BBEC004E80E4 /* Products */,
+				E87B90BD2DDC68760077D5E6 /* LoginPage */,
+				E87B90CB2DDC687A0077D5E6 /* LoginPageTests */,
+				E87B90D52DDC687A0077D5E6 /* LoginPageUITests */,
+				E87B90BC2DDC68760077D5E6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E89AC10E2DD1BBEC004E80E4 /* Products */ = {
+		E87B90BC2DDC68760077D5E6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E89AC10D2DD1BBEC004E80E4 /* SplashScreen1205.app */,
-				E89AC11B2DD1BBEE004E80E4 /* SplashScreen1205Tests.xctest */,
-				E89AC1252DD1BBEE004E80E4 /* SplashScreen1205UITests.xctest */,
+				E87B90BB2DDC68760077D5E6 /* LoginPage.app */,
+				E87B90C82DDC687A0077D5E6 /* LoginPageTests.xctest */,
+				E87B90D22DDC687A0077D5E6 /* LoginPageUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E89AC10C2DD1BBEC004E80E4 /* SplashScreen1205 */ = {
+		E87B90BA2DDC68760077D5E6 /* LoginPage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E89AC12F2DD1BBEE004E80E4 /* Build configuration list for PBXNativeTarget "SplashScreen1205" */;
+			buildConfigurationList = E87B90DC2DDC687A0077D5E6 /* Build configuration list for PBXNativeTarget "LoginPage" */;
 			buildPhases = (
-				E89AC1092DD1BBEC004E80E4 /* Sources */,
-				E89AC10A2DD1BBEC004E80E4 /* Frameworks */,
-				E89AC10B2DD1BBEC004E80E4 /* Resources */,
+				E87B90B72DDC68760077D5E6 /* Sources */,
+				E87B90B82DDC68760077D5E6 /* Frameworks */,
+				E87B90B92DDC68760077D5E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E89AC10F2DD1BBEC004E80E4 /* SplashScreen1205 */,
+				E87B90BD2DDC68760077D5E6 /* LoginPage */,
 			);
-			name = SplashScreen1205;
+			name = LoginPage;
 			packageProductDependencies = (
 			);
-			productName = SplashScreen1205;
-			productReference = E89AC10D2DD1BBEC004E80E4 /* SplashScreen1205.app */;
+			productName = LoginPage;
+			productReference = E87B90BB2DDC68760077D5E6 /* LoginPage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E89AC11A2DD1BBEE004E80E4 /* SplashScreen1205Tests */ = {
+		E87B90C72DDC687A0077D5E6 /* LoginPageTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E89AC1322DD1BBEE004E80E4 /* Build configuration list for PBXNativeTarget "SplashScreen1205Tests" */;
+			buildConfigurationList = E87B90DF2DDC687A0077D5E6 /* Build configuration list for PBXNativeTarget "LoginPageTests" */;
 			buildPhases = (
-				E89AC1172DD1BBEE004E80E4 /* Sources */,
-				E89AC1182DD1BBEE004E80E4 /* Frameworks */,
-				E89AC1192DD1BBEE004E80E4 /* Resources */,
+				E87B90C42DDC687A0077D5E6 /* Sources */,
+				E87B90C52DDC687A0077D5E6 /* Frameworks */,
+				E87B90C62DDC687A0077D5E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E89AC11D2DD1BBEE004E80E4 /* PBXTargetDependency */,
+				E87B90CA2DDC687A0077D5E6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E89AC11E2DD1BBEE004E80E4 /* SplashScreen1205Tests */,
+				E87B90CB2DDC687A0077D5E6 /* LoginPageTests */,
 			);
-			name = SplashScreen1205Tests;
+			name = LoginPageTests;
 			packageProductDependencies = (
 			);
-			productName = SplashScreen1205Tests;
-			productReference = E89AC11B2DD1BBEE004E80E4 /* SplashScreen1205Tests.xctest */;
+			productName = LoginPageTests;
+			productReference = E87B90C82DDC687A0077D5E6 /* LoginPageTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E89AC1242DD1BBEE004E80E4 /* SplashScreen1205UITests */ = {
+		E87B90D12DDC687A0077D5E6 /* LoginPageUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E89AC1352DD1BBEE004E80E4 /* Build configuration list for PBXNativeTarget "SplashScreen1205UITests" */;
+			buildConfigurationList = E87B90E22DDC687A0077D5E6 /* Build configuration list for PBXNativeTarget "LoginPageUITests" */;
 			buildPhases = (
-				E89AC1212DD1BBEE004E80E4 /* Sources */,
-				E89AC1222DD1BBEE004E80E4 /* Frameworks */,
-				E89AC1232DD1BBEE004E80E4 /* Resources */,
+				E87B90CE2DDC687A0077D5E6 /* Sources */,
+				E87B90CF2DDC687A0077D5E6 /* Frameworks */,
+				E87B90D02DDC687A0077D5E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E89AC1272DD1BBEE004E80E4 /* PBXTargetDependency */,
+				E87B90D42DDC687A0077D5E6 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				E89AC1282DD1BBEE004E80E4 /* SplashScreen1205UITests */,
+				E87B90D52DDC687A0077D5E6 /* LoginPageUITests */,
 			);
-			name = SplashScreen1205UITests;
+			name = LoginPageUITests;
 			packageProductDependencies = (
 			);
-			productName = SplashScreen1205UITests;
-			productReference = E89AC1252DD1BBEE004E80E4 /* SplashScreen1205UITests.xctest */;
+			productName = LoginPageUITests;
+			productReference = E87B90D22DDC687A0077D5E6 /* LoginPageUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E89AC1052DD1BBEC004E80E4 /* Project object */ = {
+		E87B90B32DDC68760077D5E6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
 				LastUpgradeCheck = 1630;
 				TargetAttributes = {
-					E89AC10C2DD1BBEC004E80E4 = {
+					E87B90BA2DDC68760077D5E6 = {
 						CreatedOnToolsVersion = 16.3;
 					};
-					E89AC11A2DD1BBEE004E80E4 = {
+					E87B90C72DDC687A0077D5E6 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E89AC10C2DD1BBEC004E80E4;
+						TestTargetID = E87B90BA2DDC68760077D5E6;
 					};
-					E89AC1242DD1BBEE004E80E4 = {
+					E87B90D12DDC687A0077D5E6 = {
 						CreatedOnToolsVersion = 16.3;
-						TestTargetID = E89AC10C2DD1BBEC004E80E4;
+						TestTargetID = E87B90BA2DDC68760077D5E6;
 					};
 				};
 			};
-			buildConfigurationList = E89AC1082DD1BBEC004E80E4 /* Build configuration list for PBXProject "SplashScreen1205" */;
+			buildConfigurationList = E87B90B62DDC68760077D5E6 /* Build configuration list for PBXProject "LoginPage" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = E89AC1042DD1BBEC004E80E4;
+			mainGroup = E87B90B22DDC68760077D5E6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E89AC10E2DD1BBEC004E80E4 /* Products */;
+			productRefGroup = E87B90BC2DDC68760077D5E6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E89AC10C2DD1BBEC004E80E4 /* SplashScreen1205 */,
-				E89AC11A2DD1BBEE004E80E4 /* SplashScreen1205Tests */,
-				E89AC1242DD1BBEE004E80E4 /* SplashScreen1205UITests */,
+				E87B90BA2DDC68760077D5E6 /* LoginPage */,
+				E87B90C72DDC687A0077D5E6 /* LoginPageTests */,
+				E87B90D12DDC687A0077D5E6 /* LoginPageUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E89AC10B2DD1BBEC004E80E4 /* Resources */ = {
+		E87B90B92DDC68760077D5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89AC1192DD1BBEE004E80E4 /* Resources */ = {
+		E87B90C62DDC687A0077D5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89AC1232DD1BBEE004E80E4 /* Resources */ = {
+		E87B90D02DDC687A0077D5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E89AC1092DD1BBEC004E80E4 /* Sources */ = {
+		E87B90B72DDC68760077D5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89AC1172DD1BBEE004E80E4 /* Sources */ = {
+		E87B90C42DDC687A0077D5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E89AC1212DD1BBEE004E80E4 /* Sources */ = {
+		E87B90CE2DDC687A0077D5E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E89AC11D2DD1BBEE004E80E4 /* PBXTargetDependency */ = {
+		E87B90CA2DDC687A0077D5E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E89AC10C2DD1BBEC004E80E4 /* SplashScreen1205 */;
-			targetProxy = E89AC11C2DD1BBEE004E80E4 /* PBXContainerItemProxy */;
+			target = E87B90BA2DDC68760077D5E6 /* LoginPage */;
+			targetProxy = E87B90C92DDC687A0077D5E6 /* PBXContainerItemProxy */;
 		};
-		E89AC1272DD1BBEE004E80E4 /* PBXTargetDependency */ = {
+		E87B90D42DDC687A0077D5E6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E89AC10C2DD1BBEC004E80E4 /* SplashScreen1205 */;
-			targetProxy = E89AC1262DD1BBEE004E80E4 /* PBXContainerItemProxy */;
+			target = E87B90BA2DDC68760077D5E6 /* LoginPage */;
+			targetProxy = E87B90D32DDC687A0077D5E6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		E89AC12D2DD1BBEE004E80E4 /* Debug */ = {
+		E87B90DA2DDC687A0077D5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -334,16 +334,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		E89AC12E2DD1BBEE004E80E4 /* Release */ = {
+		E87B90DB2DDC687A0077D5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -389,98 +391,85 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		E89AC1302DD1BBEE004E80E4 /* Debug */ = {
+		E87B90DD2DDC687A0077D5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SplashScreen1205/SplashScreen1205.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SplashScreen1205/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DailyNews;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				INFOPLIST_FILE = LoginPage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Practice;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.SplashScreen1205;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.LoginPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Debug;
 		};
-		E89AC1312DD1BBEE004E80E4 /* Release */ = {
+		E87B90DE2DDC687A0077D5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = SplashScreen1205/SplashScreen1205.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SplashScreen1205/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = DailyNews;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
+				INFOPLIST_FILE = LoginPage/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Practice;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.SplashScreen1205;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.LoginPage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				REGISTER_APP_GROUPS = YES;
-				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
-				XROS_DEPLOYMENT_TARGET = 2.4;
 			};
 			name = Release;
 		};
-		E89AC1332DD1BBEE004E80E4 /* Debug */ = {
+		E87B90E02DDC687A0077D5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,21 +477,17 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.SplashScreen1205Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.LoginPageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashScreen1205.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SplashScreen1205";
-				XROS_DEPLOYMENT_TARGET = 2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginPage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginPage";
 			};
 			name = Debug;
 		};
-		E89AC1342DD1BBEE004E80E4 /* Release */ = {
+		E87B90E12DDC687A0077D5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,102 +495,88 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.SplashScreen1205Tests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.LoginPageTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplashScreen1205.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SplashScreen1205";
-				XROS_DEPLOYMENT_TARGET = 2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoginPage.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoginPage";
 			};
 			name = Release;
 		};
-		E89AC1362DD1BBEE004E80E4 /* Debug */ = {
+		E87B90E32DDC687A0077D5E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.SplashScreen1205UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.LoginPageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = SplashScreen1205;
-				XROS_DEPLOYMENT_TARGET = 2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginPage;
 			};
 			name = Debug;
 		};
-		E89AC1372DD1BBEE004E80E4 /* Release */ = {
+		E87B90E42DDC687A0077D5E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
-				MACOSX_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.SplashScreen1205UITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.LoginPageUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = SplashScreen1205;
-				XROS_DEPLOYMENT_TARGET = 2.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoginPage;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E89AC1082DD1BBEC004E80E4 /* Build configuration list for PBXProject "SplashScreen1205" */ = {
+		E87B90B62DDC68760077D5E6 /* Build configuration list for PBXProject "LoginPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E89AC12D2DD1BBEE004E80E4 /* Debug */,
-				E89AC12E2DD1BBEE004E80E4 /* Release */,
+				E87B90DA2DDC687A0077D5E6 /* Debug */,
+				E87B90DB2DDC687A0077D5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E89AC12F2DD1BBEE004E80E4 /* Build configuration list for PBXNativeTarget "SplashScreen1205" */ = {
+		E87B90DC2DDC687A0077D5E6 /* Build configuration list for PBXNativeTarget "LoginPage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E89AC1302DD1BBEE004E80E4 /* Debug */,
-				E89AC1312DD1BBEE004E80E4 /* Release */,
+				E87B90DD2DDC687A0077D5E6 /* Debug */,
+				E87B90DE2DDC687A0077D5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E89AC1322DD1BBEE004E80E4 /* Build configuration list for PBXNativeTarget "SplashScreen1205Tests" */ = {
+		E87B90DF2DDC687A0077D5E6 /* Build configuration list for PBXNativeTarget "LoginPageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E89AC1332DD1BBEE004E80E4 /* Debug */,
-				E89AC1342DD1BBEE004E80E4 /* Release */,
+				E87B90E02DDC687A0077D5E6 /* Debug */,
+				E87B90E12DDC687A0077D5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E89AC1352DD1BBEE004E80E4 /* Build configuration list for PBXNativeTarget "SplashScreen1205UITests" */ = {
+		E87B90E22DDC687A0077D5E6 /* Build configuration list for PBXNativeTarget "LoginPageUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E89AC1362DD1BBEE004E80E4 /* Debug */,
-				E89AC1372DD1BBEE004E80E4 /* Release */,
+				E87B90E32DDC687A0077D5E6 /* Debug */,
+				E87B90E42DDC687A0077D5E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = E89AC1052DD1BBEC004E80E4 /* Project object */;
+	rootObject = E87B90B32DDC68760077D5E6 /* Project object */;
 }

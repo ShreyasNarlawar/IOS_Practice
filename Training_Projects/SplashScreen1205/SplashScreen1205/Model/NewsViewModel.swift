@@ -11,14 +11,35 @@ class NewsViewModel: ObservableObject{
     @Published var articles:[NewsArticleModel] = []
     @Published var isLoading = true
     
-    private let apikey = "d15979fd07374eab8367361fd725540e"
+    private let apikey = N_API.apiKey
     
-    func fetchNews(){
-        guard let url = URL(string: "https://newsapi.org/v2/everything?q=apple&from=2025-05-12&to=2025-05-12&sortBy=popularity&apiKey=\(apikey)") else {
-                    print("Invalid URL")
-            return
+    func getNewsURL() -> URL? {
+        let apiKey = N_API.apiKey
+        
+        let formatter = DateFormatter()
+        formatter.dateFormat = "yyyy-MM-dd"
+        
+        let today = Date()
+        // Calculate yesterday by subtracting 1 day (24 * 60 * 60 seconds)
+        guard let yesterday = Calendar.current.date(byAdding: .day, value: -1, to: today) else {
+            print("Failed to calculate yesterday's date")
+            return nil
         }
         
+        let fromDate = formatter.string(from: yesterday)
+        let toDate = formatter.string(from: today)
+        
+        let urlString = "https://newsapi.org/v2/everything?q=apple&from=\(fromDate)&to=\(toDate)&sortBy=popularity&apiKey=\(apiKey)"
+        
+        return URL(string: urlString)
+    }
+
+    
+    func fetchNews(){
+        guard let url = getNewsURL() else {
+               print("Invalid URL")
+               return
+           }
         URLSession.shared.dataTask(with: url){data, response, error in         //works dataTask async in background thread
             DispatchQueue.main.async {
                 self.isLoading = false
@@ -42,5 +63,14 @@ class NewsViewModel: ObservableObject{
                     print("Failed \(error)")
                 }
         }.resume()
+    }
+}
+
+struct N_API {
+    static var apiKey: String {
+        guard let key = Bundle.main.infoDictionary?["News_API"] as? String else {
+            fatalError("❌ API_KEY not found in Info.plist")
+        }
+        return key
     }
 }
