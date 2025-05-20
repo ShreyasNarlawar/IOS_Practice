@@ -14,13 +14,13 @@ struct RatingView: View {
 
     var body: some View {
         HStack {
-            ForEach(1...maxRating, id: \.self) { index in
-                Image(systemName: index <= currentRating ? "star.fill" : "star")
+            ForEach(0..<maxRating, id: \.self) { index in
+                Image(systemName: index < currentRating ? "star.fill" : "star")
                     .resizable()
                     .frame(width: width, height: width)
                     .foregroundColor(.yellow)
                     .onTapGesture {
-                        currentRating = index
+                        currentRating = index + 1
                     }
             }
         }

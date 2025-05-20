@@ -1,56 +1,64 @@
-//
-//  Books.swift
-//  BooksApp1605
-//
-//  Created by Shreyas on 19/05/25.
-//
-import Foundation
+
+import SwiftUI
 import SwiftData
 
 @Model
-class Book: Identifiable {
-    var id: UUID
+class Book {
     var title: String
     var author: String
-    var summary: String
-    var rating: Int
-    var status: Status
     var dateAdded: Date
     var dateStarted: Date
     var dateCompleted: Date
-
-    init(title: String,
-         author: String,
-         summary: String,
-         rating: Int = 0,
-         status: Status = .onShelf,
-         dateAdded: Date = .now,
-         dateStarted: Date = .distantPast,
-         dateCompleted: Date = .distantPast
+    var summary: String
+    var rating: Int?
+    var status: Status
+    
+    init(
+        title: String,
+        author: String,
+        dateAdded: Date = Date.now,
+        dateStarted: Date = Date.distantPast,
+        dateCompleted: Date = Date.distantPast,
+        summary: String = "",
+        rating: Int? = nil,
+        status: Status = .onShelf
     ) {
-        self.id = UUID()
         self.title = title
         self.author = author
-        self.summary = summary
-        self.rating = rating
-        self.status = status
         self.dateAdded = dateAdded
         self.dateStarted = dateStarted
         self.dateCompleted = dateCompleted
+        self.summary = summary
+        self.rating = rating
+        self.status = status
     }
-}
-
-enum Status: String, CaseIterable, Identifiable, Codable {
-    case onShelf, inProgress, completed
-
-    var id: String { rawValue }
-
-    var descr: String {
-        switch self {
-        case .onShelf: return "On Shelf"
-        case .inProgress: return "In Progress"
-        case .completed: return "Completed"
+    
+    var icon: Image {
+        switch status {
+        case .onShelf:
+            Image(systemName: "checkmark.diamond.fill")
+        case .inProgress:
+            Image(systemName: "book.fill")
+        case .completed:
+            Image(systemName: "books.vertical.fill")
         }
     }
 }
 
+
+enum Status: Int, Codable, Identifiable, CaseIterable {
+    case onShelf, inProgress, completed
+    var id: Self {
+        self
+    }
+    var descr: String {
+        switch self {
+        case .onShelf:
+            "On Shelf"
+        case .inProgress:
+            "In Progress"
+        case .completed:
+            "Completed"
+        }
+    }
+}
