@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E842FA902DDDA04B00E4E96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E842FA7A2DDDA04300E4E96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E842FA812DDDA04300E4E96C;
+			remoteInfo = GnialLogin2105;
+		};
+		E842FA9A2DDDA04B00E4E96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E842FA7A2DDDA04300E4E96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E842FA812DDDA04300E4E96C;
+			remoteInfo = GnialLogin2105;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E842FA822DDDA04300E4E96C /* GnialLogin2105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GnialLogin2105.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E842FA8F2DDDA04B00E4E96C /* GnialLogin2105Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnialLogin2105Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E842FA992DDDA04B00E4E96C /* GnialLogin2105UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GnialLogin2105UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		E842FA842DDDA04300E4E96C /* GnialLogin2105 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GnialLogin2105;
+			sourceTree = "<group>";
+		};
+		E842FA922DDDA04B00E4E96C /* GnialLogin2105Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GnialLogin2105Tests;
+			sourceTree = "<group>";
+		};
+		E842FA9C2DDDA04B00E4E96C /* GnialLogin2105UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = GnialLogin2105UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E842FA7F2DDDA04300E4E96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842FA8C2DDDA04B00E4E96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842FA962DDDA04B00E4E96C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E842FA792DDDA04300E4E96C = {
+			isa = PBXGroup;
+			children = (
+				E842FA842DDDA04300E4E96C /* GnialLogin2105 */,
+				E842FA922DDDA04B00E4E96C /* GnialLogin2105Tests */,
+				E842FA9C2DDDA04B00E4E96C /* GnialLogin2105UITests */,
+				E842FA832DDDA04300E4E96C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E842FA832DDDA04300E4E96C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E842FA822DDDA04300E4E96C /* GnialLogin2105.app */,
+				E842FA8F2DDDA04B00E4E96C /* GnialLogin2105Tests.xctest */,
+				E842FA992DDDA04B00E4E96C /* GnialLogin2105UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E842FA812DDDA04300E4E96C /* GnialLogin2105 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E842FAA32DDDA04B00E4E96C /* Build configuration list for PBXNativeTarget "GnialLogin2105" */;
+			buildPhases = (
+				E842FA7E2DDDA04300E4E96C /* Sources */,
+				E842FA7F2DDDA04300E4E96C /* Frameworks */,
+				E842FA802DDDA04300E4E96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				E842FA842DDDA04300E4E96C /* GnialLogin2105 */,
+			);
+			name = GnialLogin2105;
+			packageProductDependencies = (
+			);
+			productName = GnialLogin2105;
+			productReference = E842FA822DDDA04300E4E96C /* GnialLogin2105.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E842FA8E2DDDA04B00E4E96C /* GnialLogin2105Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E842FAA62DDDA04B00E4E96C /* Build configuration list for PBXNativeTarget "GnialLogin2105Tests" */;
+			buildPhases = (
+				E842FA8B2DDDA04B00E4E96C /* Sources */,
+				E842FA8C2DDDA04B00E4E96C /* Frameworks */,
+				E842FA8D2DDDA04B00E4E96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E842FA912DDDA04B00E4E96C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E842FA922DDDA04B00E4E96C /* GnialLogin2105Tests */,
+			);
+			name = GnialLogin2105Tests;
+			packageProductDependencies = (
+			);
+			productName = GnialLogin2105Tests;
+			productReference = E842FA8F2DDDA04B00E4E96C /* GnialLogin2105Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E842FA982DDDA04B00E4E96C /* GnialLogin2105UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E842FAA92DDDA04B00E4E96C /* Build configuration list for PBXNativeTarget "GnialLogin2105UITests" */;
+			buildPhases = (
+				E842FA952DDDA04B00E4E96C /* Sources */,
+				E842FA962DDDA04B00E4E96C /* Frameworks */,
+				E842FA972DDDA04B00E4E96C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E842FA9B2DDDA04B00E4E96C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				E842FA9C2DDDA04B00E4E96C /* GnialLogin2105UITests */,
+			);
+			name = GnialLogin2105UITests;
+			packageProductDependencies = (
+			);
+			productName = GnialLogin2105UITests;
+			productReference = E842FA992DDDA04B00E4E96C /* GnialLogin2105UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E842FA7A2DDDA04300E4E96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					E842FA812DDDA04300E4E96C = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					E842FA8E2DDDA04B00E4E96C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E842FA812DDDA04300E4E96C;
+					};
+					E842FA982DDDA04B00E4E96C = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = E842FA812DDDA04300E4E96C;
+					};
+				};
+			};
+			buildConfigurationList = E842FA7D2DDDA04300E4E96C /* Build configuration list for PBXProject "GnialLogin2105" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E842FA792DDDA04300E4E96C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E842FA832DDDA04300E4E96C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E842FA812DDDA04300E4E96C /* GnialLogin2105 */,
+				E842FA8E2DDDA04B00E4E96C /* GnialLogin2105Tests */,
+				E842FA982DDDA04B00E4E96C /* GnialLogin2105UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E842FA802DDDA04300E4E96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842FA8D2DDDA04B00E4E96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842FA972DDDA04B00E4E96C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E842FA7E2DDDA04300E4E96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842FA8B2DDDA04B00E4E96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E842FA952DDDA04B00E4E96C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E842FA912DDDA04B00E4E96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E842FA812DDDA04300E4E96C /* GnialLogin2105 */;
+			targetProxy = E842FA902DDDA04B00E4E96C /* PBXContainerItemProxy */;
+		};
+		E842FA9B2DDDA04B00E4E96C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E842FA812DDDA04300E4E96C /* GnialLogin2105 */;
+			targetProxy = E842FA9A2DDDA04B00E4E96C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E842FAA12DDDA04B00E4E96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E842FAA22DDDA04B00E4E96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E842FAA42DDDA04B00E4E96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GnialLogin;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.GnialLogin2105;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E842FAA52DDDA04B00E4E96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = GnialLogin;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.GnialLogin2105;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		E842FAA72DDDA04B00E4E96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.GnialLogin2105Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GnialLogin2105.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GnialLogin2105";
+			};
+			name = Debug;
+		};
+		E842FAA82DDDA04B00E4E96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.GnialLogin2105Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GnialLogin2105.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GnialLogin2105";
+			};
+			name = Release;
+		};
+		E842FAAA2DDDA04B00E4E96C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.GnialLogin2105UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GnialLogin2105;
+			};
+			name = Debug;
+		};
+		E842FAAB2DDDA04B00E4E96C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myPractice.GnialLogin2105UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GnialLogin2105;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E842FA7D2DDDA04300E4E96C /* Build configuration list for PBXProject "GnialLogin2105" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E842FAA12DDDA04B00E4E96C /* Debug */,
+				E842FAA22DDDA04B00E4E96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E842FAA32DDDA04B00E4E96C /* Build configuration list for PBXNativeTarget "GnialLogin2105" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E842FAA42DDDA04B00E4E96C /* Debug */,
+				E842FAA52DDDA04B00E4E96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E842FAA62DDDA04B00E4E96C /* Build configuration list for PBXNativeTarget "GnialLogin2105Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E842FAA72DDDA04B00E4E96C /* Debug */,
+				E842FAA82DDDA04B00E4E96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E842FAA92DDDA04B00E4E96C /* Build configuration list for PBXNativeTarget "GnialLogin2105UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E842FAAA2DDDA04B00E4E96C /* Debug */,
+				E842FAAB2DDDA04B00E4E96C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E842FA7A2DDDA04300E4E96C /* Project object */;
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Clipped Copy 4</title>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="16"></circle>
+        <rect id="path-3" x="0" y="0" width="55" height="32"></rect>
+        <rect id="path-5" x="0" y="0" width="54.9836163" height="32"></rect>
+    </defs>
+    <g id="🟢-Login" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="E1" transform="translate(-36, -336)">
+            <g id="Group-4" transform="translate(16, 320)">
+                <g id="Clipped-Copy-4" transform="translate(20, 16)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <circle stroke="#979797" cx="16" cy="16" r="15.5"></circle>
+                    <g id="Asset-4" mask="url(#mask-2)">
+                        <g transform="translate(-12, 0)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <g id="Rectangle" stroke="none" fill="none"></g>
+                            <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
+                                <rect id="Rectangle" fill="#EA0020" fill-rule="nonzero" x="11" y="0" width="9" height="32"></rect>
+                                <rect id="Rectangle" fill="#EA0020" fill-rule="nonzero" x="37" y="0" width="8" height="32"></rect>
+                                <rect id="Rectangle" fill="#FFFFFF" fill-rule="nonzero" x="19.2365207" y="0" width="18" height="32"></rect>
+                                <g id="Clipped">
+                                    <mask id="mask-6" fill="white">
+                                        <use xlink:href="#path-5"></use>
+                                    </mask>
+                                    <g id="Rectangle"></g>
+                                    <path d="M28.4889736,8.38406537 L27.2460906,10.799563 C27.106802,11.0667641 26.8496538,11.0347 26.5925056,10.8850674 L25.6924869,10.3934174 L26.367501,14.1128563 C26.5067896,14.796891 26.0567802,14.796891 25.8317756,14.4976258 L24.2567429,12.6592825 L23.9995947,13.5891422 C23.9674511,13.7067107 23.838877,13.8456552 23.6460159,13.8135911 L21.6531174,13.3753813 L22.1781283,15.3526692 C22.2959879,15.790879 22.3817039,15.9725757 22.0602687,16.0901442 L21.3531111,16.4321616 L24.7817538,19.3286212 C24.9103279,19.4355016 24.9853294,19.6385744 24.9317569,19.8095831 L24.6317506,20.8356352 C25.8103465,20.6966906 26.8710828,20.5684341 28.0496787,20.4188015 C28.1568238,20.4188015 28.328256,20.5149939 28.328256,20.6325624 L28.1675383,24.3840654 L28.7461218,24.3840654 L28.6496912,20.6432504 C28.6496912,20.5256819 28.8104088,20.4188015 28.9068394,20.4188015 C30.0854353,20.5577461 31.1461716,20.6860026 32.3247675,20.8356352 L32.0247613,19.8095831 C31.9819032,19.6278863 32.0461903,19.4355016 32.1854789,19.3286212 L35.6141215,16.4321616 L34.906964,16.0901442 C34.5962432,15.9725757 34.6819593,15.790879 34.7891044,15.3526692 L35.3141153,13.3753813 L33.3212168,13.8135911 C33.1283556,13.8456552 32.9997815,13.7173987 32.967638,13.5891422 L32.7104898,12.6592825 L31.1354571,14.4976258 C30.9104524,14.786203 30.4604431,14.786203 30.5997317,14.1128563 L31.2747457,10.3934174 L30.374727,10.8850674 C30.1175788,11.0347 29.8604306,11.0560761 29.721142,10.799563 L28.4782591,8.38406537 L28.4889736,8.38406537 Z" id="Path" fill="#EA0020" fill-rule="nonzero" mask="url(#mask-6)"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
