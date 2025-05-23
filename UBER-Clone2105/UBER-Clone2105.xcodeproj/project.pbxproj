@@ -24,8 +24,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8B106602DDDAE3B0012D962 /* UBER-Clone2105Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UBER-Clone2105Tests.xctest"; path = "/Users/siddhatech/Documents/Shreyas/UBER-Clone2105/build/Debug-iphoneos/UBER-Clone2105.app/PlugIns/UBER-Clone2105Tests.xctest"; sourceTree = "<absolute>"; };
-		E8B1066A2DDDAE3B0012D962 /* UBER-Clone2105UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "UBER-Clone2105UITests.xctest"; path = "/Users/siddhatech/Documents/Shreyas/UBER-Clone2105/build/Debug-iphoneos/UBER-Clone2105UITests-Runner.app/PlugIns/UBER-Clone2105UITests.xctest"; sourceTree = "<absolute>"; };
+		E86BC65B2DDF033E005CADB5 /* UBER-Clone2105Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UBER-Clone2105Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86BC65C2DDF033E005CADB5 /* UBER-Clone2105UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UBER-Clone2105UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B106922DDDD8460012D962 /* UBER-Clone2105.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UBER-Clone2105.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -92,6 +92,8 @@
 				E8B106632DDDAE3B0012D962 /* UBER-Clone2105Tests */,
 				E8B1066D2DDDAE3B0012D962 /* UBER-Clone2105UITests */,
 				E8B106922DDDD8460012D962 /* UBER-Clone2105.app */,
+				E86BC65B2DDF033E005CADB5 /* UBER-Clone2105Tests.xctest */,
+				E86BC65C2DDF033E005CADB5 /* UBER-Clone2105UITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,7 +142,7 @@
 			packageProductDependencies = (
 			);
 			productName = "UBER-Clone2105Tests";
-			productReference = E8B106602DDDAE3B0012D962 /* UBER-Clone2105Tests.xctest */;
+			productReference = E86BC65B2DDF033E005CADB5 /* UBER-Clone2105Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E8B106692DDDAE3B0012D962 /* UBER-Clone2105UITests */ = {
@@ -163,7 +165,7 @@
 			packageProductDependencies = (
 			);
 			productName = "UBER-Clone2105UITests";
-			productReference = E8B1066A2DDDAE3B0012D962 /* UBER-Clone2105UITests.xctest */;
+			productReference = E86BC65C2DDF033E005CADB5 /* UBER-Clone2105UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */

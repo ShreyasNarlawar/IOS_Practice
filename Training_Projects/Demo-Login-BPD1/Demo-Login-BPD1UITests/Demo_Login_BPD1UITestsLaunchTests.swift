@@ -1,13 +1,13 @@
 //
-//  LoginPageUITestsLaunchTests.swift
-//  LoginPageUITests
+//  Demo_Login_BPD1UITestsLaunchTests.swift
+//  Demo-Login-BPD1UITests
 //
-//  Created by Siddhatech on 20/05/25.
+//  Created by Siddhatech on 22/05/25.
 //
 
 import XCTest
 
-final class LoginPageUITestsLaunchTests: XCTestCase {
+final class Demo_Login_BPD1UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
